@@ -77,7 +77,7 @@ func main()  {
 	}
 
 	fmt.Println(fmt.Sprintf("time limit ms: %d", totalTimeLimitMs))
-	fmt.Println(total)
+	fmt.Println(fmt.Sprintf("%s USD", total))
 }
 
 func sumTransactions(transactions []knapsack.Transaction) (*apd.Decimal, error) {
